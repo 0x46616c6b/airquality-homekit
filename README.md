@@ -9,5 +9,5 @@ Usage of airquality-homekit:
   -metrics-url string
         URL of the airquality-exporter (default "http://localhost:9229/metrics")
   -pin string
-        Pin with has to be entered on iOS client to pair with the accessory (default "36363636")
+        Pin which has to be entered on iOS client to pair with the accessory (default "36363636")
 ```

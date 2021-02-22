@@ -24,7 +24,7 @@ const (
 )
 
 var (
-	pin        = flag.String("pin", "36363636", "Pin with has to be entered on iOS client to pair with the accessory")
+	pin        = flag.String("pin", "36363636", "Pin which has to be entered on iOS client to pair with the accessory")
 	metricsURL = flag.String("metrics-url", "http://localhost:9229/metrics", "URL of the airquality-exporter")
 
 	bridge = accessory.NewBridge(accessory.Info{
