@@ -1,4 +1,4 @@
-# Airquality HomeKit Integration
+# Airquality HomeKit Integration [![Integration](https://github.com/0x46616c6b/airquality-homekit/actions/workflows/integration.yml/badge.svg)](https://github.com/0x46616c6b/airquality-homekit/actions/workflows/integration.yml) [![Quality](https://github.com/0x46616c6b/airquality-homekit/actions/workflows/quality.yml/badge.svg)](https://github.com/0x46616c6b/airquality-homekit/actions/workflows/quality.yml)
 
 Apple HomeKit Integration for the [airquality-exporter](https://github.com/0x46616c6b/airquality-exporter). This will integrate the temperature, relative humidity and air quality to HomeKit.
 
