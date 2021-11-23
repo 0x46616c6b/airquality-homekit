@@ -7,10 +7,13 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2.3.4
+      - name: Checkout
+        uses: actions/checkout@v2.3.4
+
       - name: Setup go
         uses: actions/setup-go@v2.1.4
         with:
           go-version: '1.16.x'
+
       - name: Build
-        run: make build
+        run: go build -v
