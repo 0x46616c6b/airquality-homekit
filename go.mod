@@ -3,13 +3,13 @@ module github.com/0x46616c6b/airquality-homekit
 go 1.17
 
 require (
-	github.com/brutella/hc v1.2.4
+	github.com/brutella/hc v1.2.5
 	github.com/prometheus/client_model v0.2.0
 	github.com/prometheus/common v0.32.1
 )
 
 require (
-	github.com/brutella/dnssd v1.2.0 // indirect
+	github.com/brutella/dnssd v1.2.1 // indirect
 	github.com/golang/protobuf v1.4.3 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
 	github.com/miekg/dns v1.1.4 // indirect
